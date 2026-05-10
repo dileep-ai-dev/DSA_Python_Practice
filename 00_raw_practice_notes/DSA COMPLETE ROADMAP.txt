@@ -1,0 +1,68 @@
+DSA COMPLETE ROADMAP + DAILY SCHEDULE
+--------------------------------------------------------
+
+•FOLLOWING THIS ORDER:
+----------------------------------------------------------
+Arrays → Strings → Hashing → Two Pointers → Sliding Window →
+Binary Search → Linked List → Stack → Queue → Trees → Graphs → DP
+
+LEVEL 0: PREREQUISITES
+--------------------------------------------------------
+1. Time & Space Complexity
+2. Basic Math: GCD, LCM, Primes, Sieve, Fast Exponentiation
+--------------------------------------------------------
+
+LEVEL 1: BASIC DATA STRUCTURES
+--------------------------------------------------------
+Arrays: Subarrays, Prefix Sum, Two Pointers, Sliding Window
+Strings: Palindrome, Anagram, Pattern Searching
+Hashing: HashMap, HashSet, Frequency Counting
+--------------------------------------------------------
+
+LEVEL 2: CORE STRUCTURES
+--------------------------------------------------------
+Linked List: Insert, Delete, Reverse, Cycle Detection
+Stack: Next Greater Element, Balanced Parentheses, Monotonic Stack
+Queue: Circular Queue, Deque, Queue using Stack
+--------------------------------------------------------
+
+LEVEL 3: ALGORITHMIC FOUNDATIONS
+--------------------------------------------------------
+Sorting: Merge Sort, Quick Sort, Counting Sort
+Searching: Binary Search, Rotated Binary Search
+Recursion: Base Case, Recurrence, Tree Recursion
+Backtracking: Subsets, Permutations, N-Queens
+--------------------------------------------------------
+
+LEVEL 4: TREES
+--------------------------------------------------------
+Binary Trees: Traversals, Height, Diameter
+Binary Search Trees: Insert, Delete, Validate BST, LCA
+--------------------------------------------------------
+
+LEVEL 5: ADVANCED STRUCTURES
+--------------------------------------------------------
+Heaps: Min/Max Heap, Heapify, Priority Queue
+Tries: Insert, Search, Prefix Queries
+--------------------------------------------------------
+
+LEVEL 6: GRAPHS
+--------------------------------------------------------
+Basics: Adjacency List, Directed/Undirected Graphs
+Traversal: BFS, DFS
+Algorithms: Cycle Detection, Bipartite, Topological Sort
+Shortest Path: Dijkstra, Bellman-Ford, Floyd-Warshall
+MST: Prim, Kruskal
+--------------------------------------------------------
+
+LEVEL 7: ADVANCED ALGORITHMS
+--------------------------------------------------------
+Greedy Algorithms: Activity Selection, Knapsack
+Dynamic Programming: 1D DP, 2D DP, LCS, LIS, Coin Change
+--------------------------------------------------------
+
+LEVEL 8: COMPETITIVE PROGRAMMING TOPICS
+--------------------------------------------------------
+Bit Manipulation, Advanced Sliding Window, Binary Search on Answer
+
+========================================================
