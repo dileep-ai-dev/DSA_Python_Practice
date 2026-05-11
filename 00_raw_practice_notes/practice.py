@@ -1,135 +1,40 @@
-# DSA-PYTHON-PRACTICE
-
-# import string
-# n=int(input())
-# a=reversed(string.ascii_lowercase)
-# a=string.ascii_uppercase
-# print(a)
-# for i in range(n):
-#     print()
-# from lib2to3.pytree import Node
-from asyncio import Queue
-from ipaddress import collapse_addresses
-from multiprocessing.managers import BaseManager
-from operator import truediv
+DSA-PYTHON-PRACTICE
 
 # n=int(input())
 # c='*'
-# for i in range(2,(n//2)+1):
+# for i in range(1,(n//2)+1):
 #     a = (2 * i - 1)
 #     print((c*a).center(n,'-'))
 
 
-# a='abcdefg'
-# print(a[2:2:-1])
 # import string
-#
 # def print_rangoli(n):
 #     alpha = string.ascii_lowercase
 #     width = 4 * n - 3
 #     rows = []
-#
-#     # Create upper half rows (including middle)
 #     for i in range(n):
-#         left = alpha[n-1 : n-i-1 : -1]   # decreasing letters
-#         right = alpha[n-i : n]           # increasing letters
+#         left = alpha[n-1 : n-i-1 : -1]   
+#         right = alpha[n-i : n]           
 #         row = "-".join(left + right)
-#         rows.append(row.center(width, '-'))
-#
-#     # Print top + bottom mirror (without repeating center line)
+#         rows.append(row.center(width, '-')
 #     print("\n".join(rows[::-1] + rows[1:]))
 # n=int(input())
 # print_rangoli(n)
 
-# a='abcdefgh'
-# print(a[-2::-1])
-
-# import string
-#
-# def print_rangoli(size):
-#     alpha = string.ascii_lowercase
-#     width = size * 4 - 3
-#     rows = []
-#     for i in range(size):
-#         left = alpha[size-1:size-i:-1]
-#         right = alpha[size-i:size]
-#         row = '-'.join(left + right)
-#         rows.append(row.center(width, '-'))
-#     print("\n".join(rows[::-1] + rows[1:]))
-#
-# if __name__ == '__main__':
-#     n = int(input())
-#     print_rangoli(n)
-
-
-# import string
-#
-# def print_rangoli(size):
-#     alpha = string.ascii_lowercase
-#     width = size * 4 - 3
-#     rows = []
-#     for i in range(size):
-#         # descending from size-1 to size-i
-#         left = alpha[size-1:size-i:-1]
-#         # ascending from size-i to size
-#         right = alpha[size-i:size]
-#         row = '-'.join(left + right)
-#         rows.append(row.center(width, '-'))
-#     print("\n".join(rows[::-1] + rows[1:]))
-#
-# if __name__ == '__main__':
-#     n = int(input())
-#     print_rangoli(n)
-
-# import string
-#
-# def print_rangoli(size):
-#     alpha = string.ascii_lowercase
-#     width = size * 4 - 3
-#     rows = []
-#     for i in range(size):
-#         # indices descending from size-1 to size-1-i
-#         desc = [alpha[j] for j in range(size - 1, size - 1 - i - 1, -1)]
-#         # indices ascending from size-1-i+1 to size-1 (to avoid duplicating the center)
-#         asc = [alpha[j] for j in range(size - 1 - i + 1, size)]
-#         row = "-".join(desc + asc)
-#
-#         rows.append(row.center(width, "-"))
-#
-#     print("\n".join(rows[::-1] + rows[1:]))
-#
-# if __name__ == '__main__':
-#     n = int(input())
-#     print_rangoli(n)
-
-
-
-
-# import string
-# def Rangoli(size):
-#     wedth=n*4-3
-#     alpha=string.ascii_lowercase
-#     new_list=[]
-#     for i in range(n):
-#         s=alpha[n-1:n-1-i:-1]+alpha[n-i-1:n]
-#         row='-'.join(s)
-#
-#         new_list.append(row.center(wedth,'-'))
-#     print("\n".join(new_list+new_list[-2::-1]))
-# n=int(input())
-# Rangoli(n)
 
 # a='abcd'
 # print("-".join(a))
 
 # def result(s):
-#
+
 #     words=s.split(" ")
 #     for i in words:
 #         # print(i[0:1].upper()+i[1:],end=" ")
 #         print(i.capitalize(),end=" ")
 # s=str(input("Enter a string: "))
 # result(s)
+
+
 # def main(S):
 #     a=''
 #     for i in S:
@@ -149,6 +54,7 @@ from operator import truediv
 #             break
 # else:
 #     print('True')
+
 
 # def minon_game(string):--
 #     vowels='AEIOU'
@@ -354,6 +260,8 @@ from operator import truediv
 # for i in range(len(a)):
 #     print(i)
 
+
+
 # a=[1,2,3,1,4]
 # b={1,2,1}
 # count=0
@@ -367,8 +275,8 @@ from operator import truediv
 # for i in range(n):
 #     removed=arr.pop(0)
 #     arr.append(removed)
-# print(arr
-# )
+# print(arr)
+
 
 
 # arr=[1,2,3,4,5]
